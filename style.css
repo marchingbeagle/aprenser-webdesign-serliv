@@ -218,7 +218,7 @@ header {
   margin: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
   .banner-container,
   .about_us-container {
     flex-basis: auto;
