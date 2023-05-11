@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(30, 30, 30);
+}
+
+.hero {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.hero-list {
+  display: flex;
+  gap: 3rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hero-list__pages {
+  text-transform: uppercase;
+  border: 1px rgb(255, 201, 23) solid;
+  color: rgb(255, 201, 23);
+}
+
+.hero-list__pages:hover {
+  color: rgb(30, 30, 30);
+  background-color: rgb(255, 201, 23);
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 244, 0, 1) 100%
+  );
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 30%;
+}
+
+.banner-title {
+  font-size: 5rem;
+}
+
+.banner-button {
+  color: rgb(30, 30, 30);
+  background-color: rgb(255, 201, 23);
+  width: fit-content;
+  border-radius: 0.5rem;
+}
+
+.banner-img {
+  display: block;
+}
+
+.button {
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.courses {
+  background-color: rgb(230, 228, 228);
+  padding: 5rem 0;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding-bottom: 10rem;
+}
+
+.courses-title {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.courses-tiles {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.courses-tiles-card {
+  flex-basis: 30rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 4px lightgray;
+}
+
+.courses-tiles-card__img {
+  width: 100%;
+}
+
+.courses-tiles-card__title {
+  font-size: 2rem;
+  padding: 2rem 2rem;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.courses-tiles-card__description {
+  padding: 0 2rem 2rem 2rem;
+  margin: 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  color: rgb(75, 74, 74);
+}
+
+.courses-button {
+  color: rgb(30, 30, 30);
+  background-color: rgb(255, 201, 23);
+  width: fit-content;
+  border-radius: 0.5rem;
+}
+
+.about_us {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(36, 47, 110);
+  justify-content: center;
+}
+
+.about_us-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40rem;
+  gap: 3rem;
+  color: rgb(228, 227, 227);
+  padding: 6rem 6rem;
+}
+
+.about_us-img {
+  max-width: 55rem;
+}
+
+.about_us-container__title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.about_us-container__description {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  line-height: 1.95rem;
+}
+
+.maps {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  max-width: 900px;
+}
+
+.maps-title {
+  padding: 3.5rem;
+  font-size: 3rem;
+}
+
+.maps-location__frame {
+  width: 100%;
+}
+
+.contatos {
+  text-align: end;
+  list-style-type: none;
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+}
+
+.footer {
+  background-color: rgb(30, 30, 30);
+  margin: 0;
+}
+
+.footer-content {
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+  padding: 3rem;
+  margin: 0;
+}
