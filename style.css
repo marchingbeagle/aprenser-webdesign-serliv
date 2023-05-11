@@ -62,6 +62,7 @@ header {
 }
 
 .banner-title {
+  text-transform: uppercase;
   font-size: 5rem;
 }
 
@@ -97,6 +98,7 @@ header {
 }
 
 .courses-title {
+  text-transform: uppercase;
   text-align: center;
   font-size: 3rem;
   margin: 0;
@@ -124,6 +126,7 @@ header {
 }
 
 .courses-tiles-card__title {
+  text-transform: uppercase;
   font-size: 2rem;
   padding: 2rem 2rem;
   margin: 0;
@@ -167,6 +170,7 @@ header {
 
 .about_us-container__title {
   font-size: 3rem;
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -184,6 +188,7 @@ header {
 }
 
 .maps-title {
+  text-transform: uppercase;
   padding: 3.5rem;
   font-size: 3rem;
 }
@@ -211,4 +216,39 @@ header {
   color: white;
   padding: 3rem;
   margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-container,
+  .about_us-container {
+    flex-basis: auto;
+  }
+
+  .courses-tiles {
+    width: 80%;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .courses-tiles-card__description {
+    font-size: 2.5rem;
+  }
+
+  .banner-title {
+    padding: 3rem;
+  }
+
+  .banner-button {
+    margin-left: 3rem;
+  }
+
+  .about_us-container__title {
+    font-size: 4rem;
+  }
+
+  .about_us-container__description {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    line-height: 4rem;
+  }
 }
