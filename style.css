@@ -219,6 +219,10 @@ header {
 }
 
 @media only screen and (max-width: 450px) {
+  .hero {
+    padding: 5rem 0;
+  }
+
   .hero-list {
     gap: 1rem;
   }
@@ -244,10 +248,11 @@ header {
   }
 
   .courses-tiles-card__description {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
   .banner-title {
+    font-size: 3rem;
     padding: 3rem;
   }
 
@@ -260,8 +265,13 @@ header {
   }
 
   .about_us-container__description {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     letter-spacing: 3px;
-    line-height: 4rem;
+    line-height: 3.5rem;
+  }
+
+  .about_us-img,
+  .banner-img {
+    width: 100%;
   }
 }
