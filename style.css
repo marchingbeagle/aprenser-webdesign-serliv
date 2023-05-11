@@ -219,6 +219,19 @@ header {
 }
 
 @media only screen and (max-width: 450px) {
+  .hero-list {
+    gap: 1rem;
+  }
+
+  .hero-img {
+    width: 20%;
+  }
+
+  .hero-list__pages {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
   .banner-container,
   .about_us-container {
     flex-basis: auto;
