@@ -84,7 +84,7 @@ header {
 }
 
 .courses {
-  background-color: rgb(230, 228, 228);
+  background-color: rgb(238, 237, 237);
   padding: 5rem 0;
 }
 
@@ -170,12 +170,14 @@ header {
 
 .about_us-container__title {
   font-size: 3rem;
+  text-shadow: 2px 2px 1px black;
   text-transform: uppercase;
   margin: 0;
 }
 
 .about_us-container__description {
   font-size: 1.2rem;
+  text-shadow: 1px 1px 1px black;
   letter-spacing: 2px;
   line-height: 1.95rem;
 }
@@ -247,6 +249,10 @@ header {
     gap: 4rem;
   }
 
+  .courses-tiles-card__title {
+    font-size: 1.6rem;
+  }
+
   .courses-tiles-card__description {
     font-size: 1.4rem;
   }
@@ -260,11 +266,17 @@ header {
     margin-left: 3rem;
   }
 
+  .about_us-container {
+    padding: 6rem 2rem;
+  }
+
   .about_us-container__title {
     font-size: 4rem;
+    text-align: center;
   }
 
   .about_us-container__description {
+    text-indent: 3rem;
     font-size: 1.8rem;
     letter-spacing: 3px;
     line-height: 3.5rem;
