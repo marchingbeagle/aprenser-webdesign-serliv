@@ -14,11 +14,10 @@ header {
 }
 
 .hero {
-  padding: 2rem;
+  padding: 2rem 0rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 90%;
   margin: auto;
 }
 
