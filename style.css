@@ -11,6 +11,8 @@ body {
 
 header {
   background-color: rgb(30, 30, 30);
+  position: sticky;
+  top: 0;
 }
 
 .hero {
@@ -80,6 +82,10 @@ header {
   padding: 1.5rem 2rem;
   font-size: 1.5rem;
   text-decoration: none;
+}
+
+#container-padded{
+  padding-top: 13rem;
 }
 
 .courses {
@@ -163,9 +169,6 @@ header {
   padding: 6rem 6rem;
 }
 
-.about_us-img {
-  max-width: 55rem;
-}
 
 .about_us-container__title {
   font-size: 3rem;
@@ -240,6 +243,10 @@ header {
   .banner-container,
   .about_us-container {
     flex-basis: auto;
+  }
+
+  #container-padded{
+    padding-top: 8rem;
   }
 
   .courses-tiles {
